@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">定时应用锁</string>
+    <string name="accessibility_desc">定时应用锁需要在指定时间段内拦截你设定的目标应用。本服务仅读取当前前台应用的包名来判断是否拦截，不读取、不收集你的任何屏幕内容或个人信息。所有数据均保存在本机，不联网。</string>
+</resources>
