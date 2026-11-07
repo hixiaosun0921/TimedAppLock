@@ -2,6 +2,13 @@
 
 一个本地 Android 应用锁:在设定的时间段内锁定指定应用,帮助自己对抗"一刷就停不下来"。
 
+## 操作系统
+
+- **目标平台**:Android(手机/平板)
+- **目标 SDK**:Android 16 (API 36)
+- **最低 SDK**:见 `app/build.gradle.kts`
+- **真机验证机型**:Redmi K80(HyperOS 3)
+
 > **本项目由 AI 辅助生成** —— 代码基于 **DeepSeek** 大模型(通过 WorkBuddy 智能体)编写与迭代,非人工逐行手写。详见文末「说明」。
 
 ## 功能
@@ -20,8 +27,6 @@
 | UI | 传统 XML 布局 |
 | 核心机制 | 无障碍服务 (AccessibilityService) 监听前台窗口切换 |
 | 拦截方式 | 命中规则时 `performGlobalAction(HOME)` 弹回桌面 |
-| 目标 SDK | 36 (Android 16) |
-| 最低 SDK | 见 `app/build.gradle.kts` |
 | 构建 | Gradle 8.7 + AGP 8.5.2 + JDK 17 |
 
 ## 目录结构
